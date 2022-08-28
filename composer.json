@@ -1,0 +1,24 @@
+{
+  "name": "jaywood/jw-block-scraper",
+  "description": "A WP-CLI script to scrape all blog posts for blocks ( registered or not ) and provides you a report after complete with CSV capability.",
+  "type": "wp-cli-package",
+  "keywords": ["wp-cli", "wordpress", "shortcode", "report"],
+  "homepage": "http://plugish.com",
+  "license": "GPL-3.0-or-later",
+  "authors": [
+    {
+      "name": "Jay Wood",
+      "email": "jjwood2004@gmail.com",
+      "homepage": "http://plugish.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.4"
+  },
+  "autoload": {
+    "files": ["block-report.php"]
+  },
+  "require-dev": {
+    "wp-cli/wp-cli-bundle": "^2.6"
+  }
+}
