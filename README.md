@@ -56,7 +56,8 @@ Now since your `init.php` file is in `wp-content/mu-plugins` it will always load
 
 ## Usage
 
-**Synopsis**: `wp jwcli block report [--post-type=<post_type>] [--fields=<fields>] [--post-status=<post-status>] [--csv]`
+**Synopsis**:    
+`wp jwcli block report [--post-type=<post_type>] [--fields=<fields>] [--post-status=<post-status>] [--csv]`
 
 > Multisite flags like --url are supported.
 
