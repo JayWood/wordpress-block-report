@@ -1,5 +1,5 @@
 {
-  "name": "jaywood/jw-block-scraper",
+  "name": "jaywood/wordpress-block-report",
   "description": "A WP-CLI script to scrape all blog posts for blocks ( registered or not ) and provides you a report after complete with CSV capability.",
   "type": "wp-cli-package",
   "keywords": ["wp-cli", "wordpress", "shortcode", "report"],
@@ -13,7 +13,7 @@
     }
   ],
   "require": {
-    "php": ">=5.4"
+    "php": ">=7.4"
   },
   "autoload": {
     "files": ["block-report.php"]
