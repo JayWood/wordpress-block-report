@@ -7,6 +7,14 @@ terminal ). Easy to use, multi-site compatible with options for post type and po
 [![Twitter](https://img.shields.io/static/v1?label=&message=Twitter&color=cyan&style=for-the-badge&logo=twitter)](https://twitter.com/plugish/)
 [![Instagram](https://img.shields.io/static/v1?label=&message=Instagram&color=pink&style=for-the-badge&logo=instagram)](https://www.instagram.com/therealjaywood/)
 
+## Screenshots
+
+_Showing a simple table output excluding details_
+![](https://raw.githubusercontent.com/JayWood/wordpress-block-report/main/assets/table.png)
+
+_Showing the resulting CSV of a full export_
+![](https://raw.githubusercontent.com/JayWood/wordpress-block-report/main/assets/csv.png)
+
 ## Installation
 
 ### Composer
