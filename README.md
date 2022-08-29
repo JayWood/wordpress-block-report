@@ -67,7 +67,7 @@ Supports any post type slug that's registered at run-time. Comma separated lists
 **Default:** `post,page`   
 **Example:**
 ```
-> wp jwcli block report --post-type=article,publication
+$> wp jwcli block report --post-type=article,publication
 ```
 
 ### --post-status
