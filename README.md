@@ -61,7 +61,7 @@ Now since your `init.php` file is in `wp-content/mu-plugins` it will always load
 
 > Multisite flags like --url are supported.
 
-### --post-type=<post-type> 
+### --post-type 
 Supports any post type slug that's registered at run-time. Comma separated lists are supported as well.
 
 **Default:** `post,page`   
@@ -70,7 +70,7 @@ Supports any post type slug that's registered at run-time. Comma separated lists
 > wp jwcli block report --post-type=article,publication
 ```
 
-### --post-status=<post-status>
+### --post-status
 Supports any post status slug that's registered at run-time. Comma separated lists are supported as well.
 
 **Default:** `any`   
@@ -79,7 +79,7 @@ Supports any post status slug that's registered at run-time. Comma separated lis
 $> wp jwcli block report --post-status=publish,in-review
 ```
 
-### --fields=<fields>
+### --fields
 Supports specific fields to return within the report.
 
 **Default:** `post_id,name,attributes,innerHtml,innerContent,innerBlocks`
