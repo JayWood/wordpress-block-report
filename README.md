@@ -30,13 +30,13 @@ Add this repository to your composer.json
 }
 ```
 
-Or if you're fancy:
+Or if you're fancy:   
 `composer config repositories.wp-block-report vcs https://github.com/JayWood/wordpress-block-report`
 
-Require the package
+Require the package   
 `composer require jaywood/wordpress-block-report`
 
-If you happen to use the sweet [Composer Installers](https://github.com/composer/installers) library, this CLI script is
+> If you happen to use the sweet [Composer Installers](https://github.com/composer/installers) library, this CLI script is
 marked as a `wp-cli-package` for ease of use later.
 
 ### Manual
